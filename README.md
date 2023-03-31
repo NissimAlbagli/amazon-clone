@@ -1,3 +1,11 @@
+# Disclaimer
+
+This project was originally a fullstack build, but due to problems between my google pay and firebase, I was downgraded to the spark plan which does not give me access to cloud functions, necessary to make the payment processing with stripe work, as well as the firebase database to store the orders from each client. I ran into this problem while making the Orders.js component, before that I had the blaze plan and payments went through without issue, as well as getting the client secret. It is important to note that besides that, the authentication still works so any user can still create an account and the page will remember it. 
+
+# Resources Used
+
+this project uses react, react router dom, react currency format, materialUI and react stripe for the front end and to display the payment processing. For the back end it uses firebase for authentication, databse creation/storage and clound functions, which connect it to stripe to make the payments. Axios as the HTTPS client, cors for access control and express as the server. It can either run locally with npm start or deployed with firebase.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
